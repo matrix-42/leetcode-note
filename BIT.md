@@ -3,6 +3,10 @@
 ## 1. RSQ (Range Sum Query)
 
 To find the the sum from ith to jth element in nums[].
+* [307. Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)
+* [308. Range Sum Query 2D - Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/)
+* [315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)
+
 
 ### 1. Build 
   
