@@ -1,14 +1,13 @@
 # 树状数组 (BIT) 总结
 
-## 1. RSQ (Range Sum Query)
 
-To find the the sum from 1th to nth element in nums[].
+RSQ (Range Sum Query) To find the the sum from 1th to nth element in nums[].
 * [307. Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)
 * [308. Range Sum Query 2D - Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/)
 * [315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)
 
 
-### 1. Build 
+## 1. Build 
   
   建立一个虚拟的二叉树, 每个节点有label 和 val 两个属性. val 部分我们用数组 tree[]来实现
   
@@ -26,7 +25,7 @@ To find the the sum from 1th to nth element in nums[].
                                   > 1     3     5     7
                                   [ +5] [+15] [+52] [ +0]
 
-### 2. update num[i]
+## 2. update num[i]
 
 * Start from node n(need to be update), go up to root, add diff to node's value if we follow a right link to it.
 
@@ -63,7 +62,7 @@ To find the the sum from 1th to nth element in nums[].
             }
 
     ```
-### 3. lookup range sum from start to node-n
+## 3. lookup range sum from start to node-n
 
 * Start from node n(need to lookup), go  up to root, add all node's value if we follow a left link to it.
 * lookup rang sum from nums[0] (node1) to nums[2] (**node3**)
