@@ -1,11 +1,16 @@
 # 树状数组 (BIT) 总结
 
+**题目:**
 
 RSQ (Range Sum Query) To find the the sum from 1th to nth element in nums[].
 * [307. Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)
 * [308. Range Sum Query 2D - Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/)
 * [315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)
 
+**资料:**
+
+* [cs.stackexchange.com](https://cs.stackexchange.com/questions/10538/bit-what-is-the-intuition-behind-a-binary-indexed-tree-and-how-was-it-thought-a)
+* [topcoder.com](https://www.topcoder.com/community/competitive-programming/tutorials/binary-indexed-trees/)
 
 ## 1. Build 
   
