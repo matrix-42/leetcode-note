@@ -2,7 +2,7 @@
 
 **题目:**
 
-RSQ (Range Sum Query) To find the the sum from 1th to nth element in nums[].
+RSQ (Range Sum Query) To find the the sum from 1th to nth element in nums[], BIT **CAN NOT** solve RMQ problems.
 * [307. Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)
 * [308. Range Sum Query 2D - Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/)
 * [315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)
